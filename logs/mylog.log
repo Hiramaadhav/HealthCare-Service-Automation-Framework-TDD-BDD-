@@ -1,0 +1,104 @@
+[INFO ] 2025-03-20 20:38:49.334 [main] StepDef - SetUp Executed
+[INFO ] 2025-03-20 20:38:49.346 [main] StepDef - Chrome Browser Launched Sucessfully
+[INFO ] 2025-03-20 20:38:49.346 [main] StepDef - Window is Maximized Sucessfully
+[INFO ] 2025-03-20 20:38:49.514 [main] StepDef - LoginPage page object model is executed
+[INFO ] 2025-03-20 20:38:52.119 [main] StepDef - URL opened Sucessfully
+[INFO ] 2025-03-20 20:38:52.979 [main] StepDef - Clicked On appointment Button
+[INFO ] 2025-03-20 20:38:53.411 [main] StepDef - UserName Entered
+[INFO ] 2025-03-20 20:38:53.546 [main] StepDef - Password Entered
+[INFO ] 2025-03-20 20:38:55.209 [main] StepDef - Clicked On Login Button
+[WARN ] 2025-03-20 20:38:55.546 [main] StepDef - Test Passed: Login feature: Page title matched
+[INFO ] 2025-03-20 20:38:55.865 [main] StepDef - Browser Closed Sucessfully After login page is executed
+[INFO ] 2025-03-20 20:38:56.072 [main] StepDef - TearDown Executed
+[INFO ] 2025-03-20 20:38:56.073 [main] StepDef - Browser Closed Sucessfully
+[INFO ] 2025-03-20 20:38:56.932 [main] StepDef - SetUp Executed
+[INFO ] 2025-03-20 20:38:56.932 [main] StepDef - Chrome Browser Launched Sucessfully
+[INFO ] 2025-03-20 20:38:56.932 [main] StepDef - Window is Maximized Sucessfully
+[INFO ] 2025-03-20 20:38:57.033 [main] StepDef - LoginPage page object model is executed
+[INFO ] 2025-03-20 20:38:59.470 [main] StepDef - URL opened Sucessfully
+[INFO ] 2025-03-20 20:39:00.242 [main] StepDef - Clicked On appointment Button
+[INFO ] 2025-03-20 20:39:00.632 [main] StepDef - UserName Entered
+[INFO ] 2025-03-20 20:39:00.800 [main] StepDef - Password Entered
+[INFO ] 2025-03-20 20:39:01.824 [main] StepDef - Clicked On Login Button
+[INFO ] 2025-03-20 20:39:02.161 [main] StepDef - BookingPage page object model is executed
+[INFO ] 2025-03-20 20:39:02.163 [main] StepDef - User is redirected to BookingPage
+[INFO ] 2025-03-20 20:39:02.560 [main] StepDef - Clicked on Facility
+[INFO ] 2025-03-20 20:39:02.891 [main] StepDef - User Select the type of Facility
+[INFO ] 2025-03-20 20:39:03.249 [main] StepDef - User Selected the Health Care Program
+[INFO ] 2025-03-20 20:39:03.633 [main] StepDef - Clicked on Visit Date icon
+[INFO ] 2025-03-20 20:39:03.996 [main] StepDef - User Selected the Visit Date
+[INFO ] 2025-03-20 20:39:04.305 [main] StepDef - Clicked on Comment icon
+[INFO ] 2025-03-20 20:39:04.697 [main] StepDef - User Entered Comment
+[INFO ] 2025-03-20 20:39:05.303 [main] StepDef - User Clicked on BookAppointment Button
+[INFO ] 2025-03-20 20:39:05.640 [main] StepDef - User is redirected to Confirmation Page
+[INFO ] 2025-03-20 20:39:06.010 [main] StepDef - Browser Closed Sucessfully After login page is executed
+[INFO ] 2025-03-20 20:39:06.173 [main] StepDef - TearDown Executed
+[INFO ] 2025-03-20 20:39:06.173 [main] StepDef - Browser Closed Sucessfully
+[INFO ] 2025-03-20 20:39:06.939 [main] StepDef - SetUp Executed
+[INFO ] 2025-03-20 20:39:06.939 [main] StepDef - Chrome Browser Launched Sucessfully
+[INFO ] 2025-03-20 20:39:06.940 [main] StepDef - Window is Maximized Sucessfully
+[INFO ] 2025-03-20 20:39:07.063 [main] StepDef - LoginPage page object model is executed
+[INFO ] 2025-03-20 20:39:09.598 [main] StepDef - URL opened Sucessfully
+[INFO ] 2025-03-20 20:39:10.540 [main] StepDef - Clicked On appointment Button
+[INFO ] 2025-03-20 20:39:10.956 [main] StepDef - UserName Entered
+[INFO ] 2025-03-20 20:39:11.107 [main] StepDef - Password Entered
+[INFO ] 2025-03-20 20:39:12.430 [main] StepDef - Clicked On Login Button
+[INFO ] 2025-03-20 20:39:12.709 [main] StepDef - BookingPage page object model is executed
+[INFO ] 2025-03-20 20:39:12.710 [main] StepDef - User is redirected to BookingPage
+[INFO ] 2025-03-20 20:39:13.111 [main] StepDef - Clicked on Facility
+[INFO ] 2025-03-20 20:39:13.375 [main] StepDef - User Select the type of Facility
+[INFO ] 2025-03-20 20:39:13.703 [main] StepDef - User Selected the Health Care Program
+[INFO ] 2025-03-20 20:39:14.155 [main] StepDef - Clicked on Visit Date icon
+[INFO ] 2025-03-20 20:39:14.530 [main] StepDef - User Selected the Visit Date
+[INFO ] 2025-03-20 20:39:14.873 [main] StepDef - Clicked on Comment icon
+[INFO ] 2025-03-20 20:39:15.329 [main] StepDef - User Entered Comment
+[INFO ] 2025-03-20 20:39:15.910 [main] StepDef - User Clicked on BookAppointment Button
+[INFO ] 2025-03-20 20:39:16.266 [main] StepDef - User is redirected to Confirmation Page
+[INFO ] 2025-03-20 20:39:16.543 [main] StepDef - User is redirected to Confirmation Page
+[INFO ] 2025-03-20 20:39:16.772 [main] StepDef - ConfirmationPage page object model is executed
+[WARN ] 2025-03-20 20:39:16.854 [main] StepDef - Test Passed: Confirmation feature: Page title matched
+[WARN ] 2025-03-20 20:39:17.103 [main] StepDef - Test Passed: Confirmation feature: Facility matched
+[WARN ] 2025-03-20 20:39:17.339 [main] StepDef - Test Passed: Confirmation feature: HospitalReAdmission matched
+[WARN ] 2025-03-20 20:39:17.595 [main] StepDef - Test Passed: Confirmation feature: HealthCareProgramme matched
+[WARN ] 2025-03-20 20:39:17.839 [main] StepDef - Test Passed: Confirmation feature: VisitDate matched
+[WARN ] 2025-03-20 20:39:18.090 [main] StepDef - Test Passed: Confirmation feature: Comment matched
+[INFO ] 2025-03-20 20:39:18.350 [main] StepDef - Browser Closed Sucessfully After login page is executed
+[INFO ] 2025-03-20 20:39:18.515 [main] StepDef - TearDown Executed
+[INFO ] 2025-03-20 20:39:18.515 [main] StepDef - Browser Closed Sucessfully
+[INFO ] 2025-03-20 20:39:19.327 [main] StepDef - SetUp Executed
+[INFO ] 2025-03-20 20:39:19.328 [main] StepDef - Chrome Browser Launched Sucessfully
+[INFO ] 2025-03-20 20:39:19.328 [main] StepDef - Window is Maximized Sucessfully
+[INFO ] 2025-03-20 20:39:19.461 [main] StepDef - LoginPage page object model is executed
+[INFO ] 2025-03-20 20:39:21.857 [main] StepDef - URL opened Sucessfully
+[INFO ] 2025-03-20 20:39:22.609 [main] StepDef - Clicked On appointment Button
+[INFO ] 2025-03-20 20:39:22.999 [main] StepDef - UserName Entered
+[INFO ] 2025-03-20 20:39:23.142 [main] StepDef - Password Entered
+[INFO ] 2025-03-20 20:39:23.996 [main] StepDef - Clicked On Login Button
+[INFO ] 2025-03-20 20:39:24.379 [main] StepDef - BookingPage page object model is executed
+[INFO ] 2025-03-20 20:39:24.379 [main] StepDef - User is redirected to BookingPage
+[INFO ] 2025-03-20 20:39:24.835 [main] StepDef - Clicked on Facility
+[INFO ] 2025-03-20 20:39:25.196 [main] StepDef - User Select the type of Facility
+[INFO ] 2025-03-20 20:39:25.520 [main] StepDef - User Selected the Health Care Program
+[INFO ] 2025-03-20 20:39:25.969 [main] StepDef - Clicked on Visit Date icon
+[INFO ] 2025-03-20 20:39:26.324 [main] StepDef - User Selected the Visit Date
+[INFO ] 2025-03-20 20:39:26.631 [main] StepDef - Clicked on Comment icon
+[INFO ] 2025-03-20 20:39:26.963 [main] StepDef - User Entered Comment
+[INFO ] 2025-03-20 20:39:27.472 [main] StepDef - User Clicked on BookAppointment Button
+[INFO ] 2025-03-20 20:39:27.893 [main] StepDef - User is redirected to Confirmation Page
+[INFO ] 2025-03-20 20:39:28.153 [main] StepDef - User is redirected to Confirmation Page
+[INFO ] 2025-03-20 20:39:28.380 [main] StepDef - ConfirmationPage page object model is executed
+[WARN ] 2025-03-20 20:39:28.427 [main] StepDef - Test Passed: Confirmation feature: Page title matched
+[WARN ] 2025-03-20 20:39:28.680 [main] StepDef - Test Passed: Confirmation feature: Facility matched
+[WARN ] 2025-03-20 20:39:28.973 [main] StepDef - Test Passed: Confirmation feature: HospitalReAdmission matched
+[WARN ] 2025-03-20 20:39:29.251 [main] StepDef - Test Passed: Confirmation feature: HealthCareProgramme matched
+[WARN ] 2025-03-20 20:39:29.524 [main] StepDef - Test Passed: Confirmation feature: VisitDate matched
+[WARN ] 2025-03-20 20:39:29.785 [main] StepDef - Test Passed: Confirmation feature: Comment matched
+[INFO ] 2025-03-20 20:39:29.992 [main] StepDef - ConfirmationPage is Verified
+[INFO ] 2025-03-20 20:39:30.225 [main] StepDef - LogoutPage Page Object model is executed
+[INFO ] 2025-03-20 20:39:30.226 [main] StepDef - User wants to Logout from Website
+[INFO ] 2025-03-20 20:39:30.589 [main] StepDef - Clicked on Menu bar
+[INFO ] 2025-03-20 20:39:31.440 [main] StepDef - Clicked on Logout button
+[INFO ] 2025-03-20 20:39:31.739 [main] StepDef - User SucessfullY logout from the Website
+[INFO ] 2025-03-20 20:39:32.043 [main] StepDef - Browser Closed Sucessfully After login page is executed
+[INFO ] 2025-03-20 20:39:32.240 [main] StepDef - TearDown Executed
+[INFO ] 2025-03-20 20:39:32.241 [main] StepDef - Browser Closed Sucessfully

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="46.918" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-20T15:08:45.331139100Z">
+<testcase classname="Login" name="Successful Login With Valid Credentials" time="10.478">
+<system-out><![CDATA[
+Given user Launch Chrome browser............................................passed
+When User opens URL "https://katalon-demo-cura.herokuapp.com/"..............passed
+And click on "Make Appointment".............................................passed
+And user enters Username as "John Doe" and Password as "ThisIsNotAPassword".passed
+And click on login..........................................................passed
+Then page title Should be "CURA Healthcare Service".........................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Booking Page" name="User Fills the Booking Page" time="10.062">
+<system-out><![CDATA[
+Given user Launch Chrome browser............................................passed
+When User opens URL "https://katalon-demo-cura.herokuapp.com/"..............passed
+And click on "Make Appointment".............................................passed
+And user enters Username as "John Doe" and Password as "ThisIsNotAPassword".passed
+And click on login..........................................................passed
+Then user is redirected to appointment page.................................passed
+When user click on Facility.................................................passed
+And select the Type of Facility.............................................passed
+And select the type of healthcare program...................................passed
+And click on visit date icon................................................passed
+And select the visit date...................................................passed
+And click on comment........................................................passed
+And enters comment "Cardiac Medical Emergency"..............................passed
+And click on book appointment...............................................passed
+Then user is redirected to confirmation page................................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Confirmation Page" name="User Verifies the confirmation page" time="12.329">
+<system-out><![CDATA[
+Given user Launch Chrome browser............................................passed
+When User opens URL "https://katalon-demo-cura.herokuapp.com/"..............passed
+And click on "Make Appointment".............................................passed
+And user enters Username as "John Doe" and Password as "ThisIsNotAPassword".passed
+And click on login..........................................................passed
+Then user is redirected to appointment page.................................passed
+When user click on Facility.................................................passed
+And select the Type of Facility.............................................passed
+And select the type of healthcare program...................................passed
+And click on visit date icon................................................passed
+And select the visit date...................................................passed
+And click on comment........................................................passed
+And enters comment "Cardiac Medical Emergency"..............................passed
+And click on book appointment...............................................passed
+Then user is redirected to confirmation page................................passed
+When user is redirected to confirmation page................................passed
+And verifies page title as "Appointment Confirmation".......................passed
+And verifies facility as "Seoul CURA Healthcare Center".....................passed
+And verifies hospitalreadmission as "No"....................................passed
+And verifies healthcareprogram as "Medicaid"................................passed
+And verifies visitdate as "31/03/2025"......................................passed
+And verifies comment as "Cardiac Medical Emergency".........................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Logout Page" name="User Logout from The Website after Sucessful Regestration" time="13.703">
+<system-out><![CDATA[
+Given user Launch Chrome browser............................................passed
+When User opens URL "https://katalon-demo-cura.herokuapp.com/"..............passed
+And click on "Make Appointment".............................................passed
+And user enters Username as "John Doe" and Password as "ThisIsNotAPassword".passed
+And click on login..........................................................passed
+Then user is redirected to appointment page.................................passed
+When user click on Facility.................................................passed
+And select the Type of Facility.............................................passed
+And select the type of healthcare program...................................passed
+And click on visit date icon................................................passed
+And select the visit date...................................................passed
+And click on comment........................................................passed
+And enters comment "Cardiac Medical Emergency"..............................passed
+And click on book appointment...............................................passed
+Then user is redirected to confirmation page................................passed
+When user is redirected to confirmation page................................passed
+And verifies page title as "Appointment Confirmation".......................passed
+And verifies facility as "Seoul CURA Healthcare Center".....................passed
+And verifies hospitalreadmission as "No"....................................passed
+And verifies healthcareprogram as "Medicaid"................................passed
+And verifies visitdate as "31/03/2025"......................................passed
+And verifies comment as "Cardiac Medical Emergency".........................passed
+Then user confirms the confirmation page....................................passed
+When Confirmation page is verified..........................................passed
+And user clicks on menubar..................................................passed
+And clicked on Logout button................................................passed
+Then user sucessfully logout from the website...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

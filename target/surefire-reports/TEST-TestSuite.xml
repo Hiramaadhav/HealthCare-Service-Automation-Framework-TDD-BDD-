@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="49.335" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="webdriver.chrome.driver" value="C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\hp5cd\Eclipse_Cucumber\Cucumber_BDD\target\test-classes;C:\Users\hp5cd\Eclipse_Cucumber\Cucumber_BDD\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\cobertura\cobertura\2.1.1\cobertura-2.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ow2\asm\asm\5.0.1\asm-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ow2\asm\asm-tree\5.0.1\asm-tree-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ow2\asm\asm-commons\5.0.1\asm-commons-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ow2\asm\asm-util\5.0.1\asm-util-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ow2\asm\asm-analysis\5.0.1\asm-analysis-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\jaxen\jaxen\1.1.4\jaxen-1.1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\ant\ant\1.8.3\ant-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\ant\ant-launcher\1.8.3\ant-launcher-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\ant\ant-junit\1.8.3\ant-junit-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mortbay\jetty\jetty\6.1.14\jetty-6.1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mortbay\jetty\jetty-util\6.1.14\jetty-util-6.1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ch\qos\logback\logback-classic\1.0.13\logback-classic-1.0.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ch\qos\logback\logback-core\1.0.13\logback-core-1.0.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\masterthought\cucumber-reporting\5.8.4\cucumber-reporting-5.8.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.1\jackson-datatype-jsr310-2.18.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\joda-time\joda-time\2.13.0\joda-time-2.13.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-configuration2\2.11.0\commons-configuration2-2.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-text\1.12.0\commons-text-1.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.18.1\jsoup-1.18.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.16\jcl-over-slf4j-2.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\gherkin\32.0.0\gherkin-32.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-testng\7.21.1\cucumber-testng-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Program Files\Java\jdk-23\lib\tools-1.5.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire12544495777152723813\surefirebooter-20250320203843416_3.jar C:\Windows\Temp\surefire12544495777152723813 2025-03-20T20-38-43_036-jvmRun1 surefire-20250320203843416_1tmp surefire_0-20250320203843416_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\hp5cd\Eclipse_Cucumber\Cucumber_BDD\target\test-classes;C:\Users\hp5cd\Eclipse_Cucumber\Cucumber_BDD\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\cobertura\cobertura\2.1.1\cobertura-2.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ow2\asm\asm\5.0.1\asm-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ow2\asm\asm-tree\5.0.1\asm-tree-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ow2\asm\asm-commons\5.0.1\asm-commons-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ow2\asm\asm-util\5.0.1\asm-util-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ow2\asm\asm-analysis\5.0.1\asm-analysis-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\jaxen\jaxen\1.1.4\jaxen-1.1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\ant\ant\1.8.3\ant-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\ant\ant-launcher\1.8.3\ant-launcher-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\ant\ant-junit\1.8.3\ant-junit-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mortbay\jetty\jetty\6.1.14\jetty-6.1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mortbay\jetty\jetty-util\6.1.14\jetty-util-6.1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ch\qos\logback\logback-classic\1.0.13\logback-classic-1.0.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ch\qos\logback\logback-core\1.0.13\logback-core-1.0.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\masterthought\cucumber-reporting\5.8.4\cucumber-reporting-5.8.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.1\jackson-datatype-jsr310-2.18.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\joda-time\joda-time\2.13.0\joda-time-2.13.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-configuration2\2.11.0\commons-configuration2-2.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-text\1.12.0\commons-text-1.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.18.1\jsoup-1.18.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.16\jcl-over-slf4j-2.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\gherkin\32.0.0\gherkin-32.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-testng\7.21.1\cucumber-testng-7.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Program Files\Java\jdk-23\lib\tools-1.5.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\hp5cd\Eclipse_Cucumber\Cucumber_BDD"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire12544495777152723813\surefirebooter-20250320203843416_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="LAPTOP-CDU0EB2F$"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="C:\Users\hp5cd\Eclipse_Cucumber\Cucumber_BDD"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\hp5cd\Apache Maven\apache-maven-3.9.9/bin;C:\Program Files\Java\jdk-23/bin;C:\Program Files\Java\jdk-23/bin;C:\Users\hp5cd\Downloads\platform-tools-latest-windows\platform-tools\adb.exe;C:\Program Files\nodejs\;C:\Users\hp5cd\AppData\Local\Android\Sdk\emulator;C:\Users\hp5cd\AppData\Local\Android\Sdk;C:\gradle\gradle-8.12\bin;C:\Users\hp5cd\allure\allure-2.32.0\bin;C:\Users\hp5cd\.jdks\openjdk-21.0.1\bin;C:\Users\hp5cd\browsermob\browsermob-proxy-2.1.4\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\hp5cd\Apache Maven\apache-maven-3.9.9\bin;C:\Users\hp5cd\Apache Maven\apache-maven-3.9.9\bin;C:\Users\hp5cd\Apache Maven\apache-maven-3.9.9\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Successful Login With Valid Credentials&quot;, &quot;Login&quot;](1)" classname="TestRunner.HealthCare_Run" time="10.6">
+    <system-out><![CDATA[[DEBUG] suiteXmlPath: "C:\Users\hp5cd\Eclipse_Cucumber\Cucumber_BDD\testng.xml"
+
+@sanity
+Scenario: Successful Login With Valid Credentials                             # Features/01.Login.feature:4
+Setup method executed..
+[DEBUG] Using WebDriverManager 5.9.3
+[DEBUG] Removing resolution chrome=133 from cache (expired on Thu Mar 20 20:08:11 IST 2025)
+[DEBUG] ex-0000000001 preparing request execution
+[DEBUG] ex-0000000001 target auth state: UNCHALLENGED
+[DEBUG] ex-0000000001 proxy auth state: UNCHALLENGED
+[DEBUG] ex-0000000001 acquiring connection with route {s}->https://raw.githubusercontent.com:443
+[DEBUG] ex-0000000001 acquiring endpoint (3 MINUTES)
+[DEBUG] ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+[DEBUG] ex-0000000001 endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+[DEBUG] ex-0000000001 acquired ep-0000000001
+[DEBUG] ex-0000000001 acquired endpoint ep-0000000001
+[DEBUG] ex-0000000001 opening connection {s}->https://raw.githubusercontent.com:443
+[DEBUG] ep-0000000001 connecting endpoint (null)
+[DEBUG] ep-0000000001 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+[DEBUG] raw.githubusercontent.com resolving remote address
+[DEBUG] raw.githubusercontent.com resolved to [raw.githubusercontent.com/185.199.110.133, raw.githubusercontent.com/185.199.109.133, raw.githubusercontent.com/185.199.108.133, raw.githubusercontent.com/185.199.111.133]
+[DEBUG] raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.110.133:443 (30 SECONDS)
+[DEBUG] Connecting socket to raw.githubusercontent.com/185.199.110.133:443 with timeout 30 SECONDS
+[DEBUG] Enabled protocols: [TLSv1.3, TLSv1.2]
+[DEBUG] Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[DEBUG] Starting handshake (null)
+[DEBUG] Secure session established
+[DEBUG]  negotiated protocol: TLSv1.3
+[DEBUG]  negotiated cipher suite: TLS_AES_128_GCM_SHA256
+[DEBUG]  peer principal: CN=*.github.io
+[DEBUG]  peer alternative names: [*.github.io, *.github.com, *.githubusercontent.com, github.com, github.io, githubusercontent.com, www.github.com]
+[DEBUG]  issuer principal: CN=Sectigo RSA Domain Validation Secure Server CA, O=Sectigo Limited, L=Salford, ST=Greater Manchester, C=GB
+[DEBUG] http-outgoing-0 set socket timeout to 3 MINUTES
+[DEBUG] raw.githubusercontent.com:443 connected null->raw.githubusercontent.com/185.199.110.133:443 as http-outgoing-0
+[DEBUG] ep-0000000001 connected http-outgoing-0
+[DEBUG] ep-0000000001 endpoint connected
+[DEBUG] ex-0000000001 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+[DEBUG] ex-0000000001 Cookie spec selected: strict
+[DEBUG] ep-0000000001 start execution ex-0000000001
+[DEBUG] ep-0000000001 executing exchange ex-0000000001 over http-outgoing-0
+[DEBUG] http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+[DEBUG] http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+[DEBUG] http-outgoing-0 >> accept-encoding: gzip, deflate, br
+[DEBUG] http-outgoing-0 >> cache-control: max-age=0
+[DEBUG] http-outgoing-0 >> connection: keep-alive
+[DEBUG] http-outgoing-0 >> Host: raw.githubusercontent.com
+[DEBUG] http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+[DEBUG] http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+[DEBUG] http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+[DEBUG] http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+[DEBUG] http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+[DEBUG] http-outgoing-0 >> "[\r][\n]"
+[DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[DEBUG] http-outgoing-0 << "Content-Length: 946[\r][\n]"
+[DEBUG] http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+[DEBUG] http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+[DEBUG] http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[DEBUG] http-outgoing-0 << "ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"[\r][\n]"
+[DEBUG] http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-GitHub-Request-Id: 188D:1C8A6B:34811:8BEE9:67DB9B59[\r][\n]"
+[DEBUG] http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] http-outgoing-0 << "Date: Thu, 20 Mar 2025 15:08:46 GMT[\r][\n]"
+[DEBUG] http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Served-By: cache-maa10225-MAA[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Cache-Hits: 4[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Timer: S1742483327.920374,VS0,VE0[\r][\n]"
+[DEBUG] http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+[DEBUG] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] http-outgoing-0 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Fastly-Request-ID: 9722bb95d29d67b1626b7c2a5189c55831ec442c[\r][\n]"
+[DEBUG] http-outgoing-0 << "Expires: Thu, 20 Mar 2025 15:13:46 GMT[\r][\n]"
+[DEBUG] http-outgoing-0 << "Source-Age: 270[\r][\n]"
+[DEBUG] http-outgoing-0 << "[\r][\n]"
+[DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[DEBUG] http-outgoing-0 << Connection: keep-alive
+[DEBUG] http-outgoing-0 << Content-Length: 946
+[DEBUG] http-outgoing-0 << Cache-Control: max-age=300
+[DEBUG] http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+[DEBUG] http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+[DEBUG] http-outgoing-0 << ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"
+[DEBUG] http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+[DEBUG] http-outgoing-0 << X-Content-Type-Options: nosniff
+[DEBUG] http-outgoing-0 << X-Frame-Options: deny
+[DEBUG] http-outgoing-0 << X-XSS-Protection: 1; mode=block
+[DEBUG] http-outgoing-0 << X-GitHub-Request-Id: 188D:1C8A6B:34811:8BEE9:67DB9B59
+[DEBUG] http-outgoing-0 << Content-Encoding: gzip
+[DEBUG] http-outgoing-0 << Accept-Ranges: bytes
+[DEBUG] http-outgoing-0 << Date: Thu, 20 Mar 2025 15:08:46 GMT
+[DEBUG] http-outgoing-0 << Via: 1.1 varnish
+[DEBUG] http-outgoing-0 << X-Served-By: cache-maa10225-MAA
+[DEBUG] http-outgoing-0 << X-Cache: HIT
+[DEBUG] http-outgoing-0 << X-Cache-Hits: 4
+[DEBUG] http-outgoing-0 << X-Timer: S1742483327.920374,VS0,VE0
+[DEBUG] http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+[DEBUG] http-outgoing-0 << Access-Control-Allow-Origin: *
+[DEBUG] http-outgoing-0 << Cross-Origin-Resource-Policy: cross-origin
+[DEBUG] http-outgoing-0 << X-Fastly-Request-ID: 9722bb95d29d67b1626b7c2a5189c55831ec442c
+[DEBUG] http-outgoing-0 << Expires: Thu, 20 Mar 2025 15:13:46 GMT
+[DEBUG] http-outgoing-0 << Source-Age: 270
+[DEBUG] ex-0000000001 connection can be kept alive for 3 MINUTES
+[DEBUG] http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]X[0xffffffd1]n[0xffffffda]0[0x14]}[0xffffffe7]+,[0xffffffba]J [0x11][0xffffffb2][0x1][0xffffffeb][0xffffffaa]Jy[0xffffffa0][0x19]e[0xffffffd5][0xffffffa8]`[0xffffffd0]v[0xffffff9b][0xffffffe4][0x17][0xffffff93]8`)[0xffffff89]Q[0xffffff9c]@[0xffffffb7][0xffffffa9][0xfffffffb][0xfffffff6]9NB[0xffffffe3]$[0xc]H[0xffffffe0][0xffffffad][0xffffff8e][0xffffff8f][0xffffffef]97[0xffffffdc]s}[0xffffffd3][0xb][0xffffffa0]S[0xffffffc7]A[0xffffffae][0xffffffc9][0xffffff80][0xffffff89]|4G[0xc][0xffffffd7].[0xffffffc0][0xffffffe3][0xffffff92]0`[0x11][0x1b][0x3][0xffffff83][0xffffffba]>".[0x3][0xfffffffe]2\[0xffffffc4]P[0xffffff9f][0xffffff82]9[0x6][0xfffffff8][0x5][0x1b][0xffffff81][0xffffff8f]M@\[0xffffffb1][0xffffffcd][0xffffff96][0xffffffd8][0xffffffb6][0xffffffc3][0x5][0xfffffff5]L[0xffffffec][0xffffff85] [0x13][0xfffffffb][0xffffffd8][0xfffffff0][0xffffffc5][0xffffffe6][0x1a]{[0xffffff8c]P[0xffffffbe]g[0x1][0xffffffcc][0xffffffff]^x[0x18][0xffffffbb]`[0xffffffee][0xffffffd1][\r][0xffffffe3][0x1b][0xffffff9c][0xffffffb2][0xffffffa1]/=[0xffffffea][0xffffffe0][0x16][0xffffffb8]#[0x1e][0xffffffb6][0xffffffe8]K[0xb][0xffffff8c]W[0xffffffd8]C-00[0x17][0xfffffffc][0xffffffa9][0xffffffd8]%[0xffffff81][0xffffffd3][0xc][0xffffffe3][0xffffff9b][0xffffffc4][0xffffffb2][0xffffffb0][0xffffff87]][0x1f][0xffffffd0][0x10][0xffffffe3][0x13]w[0x1][0xffffffd8]/[0xffffffe6]c[0xffffff87][0xffffff81][0xffffffc6]w[0xffffffe2][0xffffff9a]<j[0xb][0xffffff8c][0xffffff88][0x1b][0xfffffff0]0[0xf][0xffffffc8][0x0][0xffffffe3]Y[0xffffffb3][0xffffffc6]9"[0xffffff8a]Z[0xffffff9c]F[0xffffffdb][0x10][0xffffffcb][0xfffffff6]&:[0xffffffd0]~[0xffffffff]A3[0x1c][0xffffffb3][0xffffffcd][0xffffffb3][0x2][0xffffffaa][0xe]6[0xe]1[0xffffffc4]+[0x11][0xffffffaf]a[0xffffffb3][0xffffffe4]|[0xffffffc0]E[0xe][0xffffffd6][0xffffffea][0xffffff97][0xffffff93][0xffffffe9]x8[0xffffffed]?[0xffffffdc][0xffffffdd][0xffffff8f][0x6][0xffffffb3][0x1b][0xffffffa8]Ax[0x9][0xffffffe1][0xffffff90][0xffffffd2][0xffffff85][0xffffff8d]![0xffffff8c]( [0xffffffec][0xffffffaf]V61[0xffffffb8]4[0xffffffea]B[0x18][0x13][0xfffffff1][0xffffffc8]u[0xffffffb0][0xffffffc0]>x[0xffffff8e][0xffffffdf][0xffffff85][0xffffffba]Fv[0xffffffb0][O[0xffffffa7][0xffffff84][0xffffff9e][0xffffffc6][0xffffff8f][0xffffffeb][0xffffffab][0xffffffe6]9Eu[0xf][0x14]5[0x1a][0xffffffeb][0xfffffffd]Q[0x7f]2[0xfffffff9][0xffffffdc][0x7f][0xffffffec][0xffffff9f]SOO[0xffffff9b][0xe][0xffffff86][0xffffffe0][0xffffffdb][0xffffffd3]`[0xfffffffa][0x13]|[0xfffffff9][0xffffffaa]?[0xffffffc1][0x19][0xffffffb5][0xfffffffc][\r][0xfffffff2]p[0xffffffc2][0x16][0xffffff93][0xffffffdd][0xffffff8e]n12D[0xffffffbc][0xffffffa4][0x16]w[0xffffffc6][0xfffffffc][0xffffffa8][0xffffffad][0xffffffe8][0xffffff86]c[0xffffffc2]z[0x16][0xffffffa9]*[0xffffffb1]I@c[0xffffff88]}[0xffffffe5][0xffffff9e][0x17][0x1a][0xffffffa8][0xffffffbf][0xfffffffb][0xffffff83][0xffffffdd][0xfffffff5]M:[0xffffffcd][0xffffffd7][0xc]e:[0xffffffbd]Tv[0xffffffcd]v[0xffffff9c][0xffffffda][0xffffffbd]k[0xffffffd1][0xfffffff6][0xffffffc4][0xffffffa3]f`[0xfffffff8][0xffffffcf]{$][0x1d].)W[0xe][0xffffffe7][0xffffffd4][0xfffffff5][0xffffffa9][0xffffff9c][0xffffffae]SH[0xffffffca]j[0xffffffb2]C[0xffffffbf][0xffffff87].V[0x3][0xffffffe6][0xffffffa9]s[0xffffffe2][0xffffffaa][0xb][0xffffffc1][0xffffffa1]D[0xfffffffb]@Qv[0xfffffffc][0xffffffee][0xfffffff1][0xffffffc1][0xffffff8e][0xffffffb6][0xb][0xffffff9f]=[0xffffffe0] C[0xfffffff0][0xffffffa4]T35J([0xffffffee]1m[0xffffffb4]Z[0xffffffa9]:[0xffffffef][0xffffff9d][0xffffffbc]I1[0xffffff95][0xffffffb7][0xffffffa0][0xfffffff1]L[0x6][0xffffffa4][0xffffffa3][0xfffffff3][0xffffffce][0x14]7[0xffffffbd]-[0xffffff91][0x15][0xffffffad]O[0xffffffd3][0xffffff9b][0x1e][0xffffffe8]ob[0xffffffdb](![0xffffff81]0[0xffffff89][0xffffffbe][0xffffffcf]k9[0x15][0xffffff95];[0xffffffd2][0xffffffe9][0xffffffa4]tS[0xffffffbe][0xffffffaf][0xffffffcb][0xffffffc6][0xffffff8f]I[0xffffffb2]d[0xfffffff5][0xffffffd0][0xfffffffa]z[0xffffffe0][0xffffff85][0x17]G[0xffffffb6][0xffffffac]s[0xffffffe1]{[0xffffff95][0xfffffffc][0x16]1[0xffffffff][0xfffffffd] [0xffffffa5]w[0xffffff90][0xffffffbf]rB[0xffffff8e][0xffffffe8]E[0xffffffb2][0xffffffc1][0xffffff8e][0xffffffd7][0xffffff90][0x13][0xffffff91]wT[0xffffffbc][0x3][0xffffff94][0xfffffff5].pGKar[0xffffffa0]B[0xffffffe7][0xffffffc4][0xffffffbf]O[0xffffff91]g[0xffffffd2][0xffffffb1][0xffffffb8]M[0xffffffc2]Y`[0x1b][0x13][0xfffffff3]E5[0xffffff83][0xffffffc8][0xffffffa5]I[0xc][0xffffff8f]2^C[0x10][0xffffff86]4[0xffffff99][0xffffffdb][0xffffffc9]a[0xffffff82]n_[0xffffff99][0xffffffca][0xffffff9a][0xffffffca][0xffffffd8][0xffffffe5][0xffffff8c]r[0xffffffba];[0xffffffaf][0xffffffca]72[0xffffffc1][0xfffffff5][0xffffffbf][0xffffffbb]R[0xe]Y[0xffffffd2]&[0xffffffaf]Y[0xffffffc6]tr[0xffffffa9][0xffffffdc][0xe][0xffffffb2][0xffffff8c][0xffffffac][0xffffffa8][0xffffffa4]_[0x12][0xffffffe3]V[0xffffff97]U[0xffffff93][0xffffff85][0xffffffe5]=[0xffffffe4]$[0x1c]J[0x8]([0xffffffb8][0xffffff96][0xffffffd2][0xffffffe7]:[0xffffffda]N[0xffffffb8][0xffffff8c]/t[0xffffffd6]6[0x1d][0xffffffe1][0xffffff9c]"[0xffffff83][0xffffffc9][0x8] ]Jb[0x0][0xffffffdf][0xffffffb2][0xffffff88]Q[0xfffffffb]x[0xffffffbf][0x15][0xffffffcd][0xffffff81][0xfffffffc][0xffffff8d]-<[0xffffffe4]0[0x8][0x5][0x5][0xffffff84]Q[0xffffffec]}[0xffffffd5][0xffffff9c]QP[0xffffffc5]][0xffffffa7]QPe[0x16][0xffffff8e]ym[0x14][0xffffffb8][0x6][0xffffffc7][0x1e]K[0xffffffdd][0xffffffab][0xffffff90]|E[0xffffffea][0xffffffd2]7R[0xffffffc4]+[0xffffffd1][0x1e]d[0xfffffff0][0xc][0xffffffff][0x11][0xffffffa3][0xffffffb0]<[0xffffff9d][0xffffff9f][0xffffff88][0xffffffbf][0xfffffff4][0xffffffc8][0xffffffbb]-[0xffffffba]H[0xffffffc8][[0xffffffc9][0xffffff95]Qq][0xfffffff6]-[0xffffff94]S[0xffffff91][0xffffff91][0xffffff91][0xffffffef]j[0xffffffe2]yA3[0xffffff93][0xfffffff0][0x1d]-[0xb][0xffffffcb][0xffffffe0][\n]"
+[DEBUG] http-outgoing-0 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
+[DEBUG] ep-0000000001 releasing valid endpoint
+[DEBUG] ep-0000000001 releasing endpoint
+[DEBUG] ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
+[DEBUG] ep-0000000001 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+[DEBUG] Detecting chrome version using online commands.properties
+[DEBUG] Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+[DEBUG] Result: Version=133.0.6943.142
+[DEBUG] Resolution chrome133=133.0.6943.141 in cache (valid until 01:30:35 21/03/2025 IST)
+[INFO] Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[DEBUG] Storing resolution chrome=133 in cache (valid until 21:38:47 20/03/2025 IST)
+[DEBUG] Driver chromedriver 133.0.6943.141 found in cache
+[INFO] Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+[INFO ] 2025-03-20 20:38:49.334 [main] StepDef - SetUp Executed
+[INFO ] 2025-03-20 20:38:49.346 [main] StepDef - Chrome Browser Launched Sucessfully
+[INFO ] 2025-03-20 20:38:49.346 [main] StepDef - Window is Maximized Sucessfully
+  Given user Launch Chrome browser                                            # StepDefinition.StepDef.user_launch_chrome_browser()
+
+    Embedding Successful Login With Valid Credentials [image/png 3322 bytes]
+
+[INFO ] 2025-03-20 20:38:49.514 [main] StepDef - LoginPage page object model is executed
+[INFO ] 2025-03-20 20:38:52.119 [main] StepDef - URL opened Sucessfully
+  When User opens URL "https://katalon-demo-cura.herokuapp.com/"              # StepDefinition.StepDef.user_opens_url(java.lang.String)
+
+    Embedding Successful Login With Valid Credentials [image/png 3786 bytes]
+
+[INFO ] 2025-03-20 20:38:52.979 [main] StepDef - Clicked On appointment Button
+  And click on "Make Appointment"                                             # StepDefinition.StepDef.click_on(java.lang.String)
+
+    Embedding Successful Login With Valid Credentials [image/png 4061 bytes]
+
+[INFO ] 2025-03-20 20:38:53.411 [main] StepDef - UserName Entered
+[INFO ] 2025-03-20 20:38:53.546 [main] StepDef - Password Entered
+  And user enters Username as "John Doe" and Password as "ThisIsNotAPassword" # StepDefinition.StepDef.user_enters_username_as_and_password_as(java.lang.String,java.lang.String)
+
+    Embedding Successful Login With Valid Credentials [image/png 4092 bytes]
+
+[INFO ] 2025-03-20 20:38:55.209 [main] StepDef - Clicked On Login Button
+  And click on login                                                          # StepDefinition.StepDef.click_on_login()
+
+    Embedding Successful Login With Valid Credentials [image/png 3801 bytes]
+
+[WARN ] 2025-03-20 20:38:55.546 [main] StepDef - Test Passed: Login feature: Page title matched
+  Then page title Should be "CURA Healthcare Service"                         # StepDefinition.StepDef.page_title_should_be(java.lang.String)
+
+    Embedding Successful Login With Valid Credentials [image/png 3801 bytes]
+
+[INFO ] 2025-03-20 20:38:55.865 [main] StepDef - Browser Closed Sucessfully After login page is executed
+  And close browser                                                           # StepDefinition.StepDef.close_browser()
+Error capturing screenshot: invalid session id
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eed62169cb243dcc1f4306deffb5049c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51687}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51687/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eed62169cb243dcc1f4306deffb5049c
+TearDown method executed..
+[INFO ] 2025-03-20 20:38:56.072 [main] StepDef - TearDown Executed
+[INFO ] 2025-03-20 20:38:56.073 [main] StepDef - Browser Closed Sucessfully
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 8:38:55 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User Fills the Booking Page&quot;, &quot;Booking Page&quot;](2)" classname="TestRunner.HealthCare_Run" time="10.071">
+    <system-out><![CDATA[
+@regression @functional
+Scenario: User Fills the Booking Page                                         # Features/02.Booking.feature:10
+Setup method executed..
+[DEBUG] Using WebDriverManager 5.9.3
+[DEBUG] Resolution chrome=133 in cache (valid until 21:38:47 20/03/2025 IST)
+[DEBUG] Resolution chrome133=133.0.6943.141 in cache (valid until 01:30:35 21/03/2025 IST)
+[INFO] Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[DEBUG] Driver chromedriver 133.0.6943.141 found in cache
+[INFO] Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+[INFO ] 2025-03-20 20:38:56.932 [main] StepDef - SetUp Executed
+[INFO ] 2025-03-20 20:38:56.932 [main] StepDef - Chrome Browser Launched Sucessfully
+[INFO ] 2025-03-20 20:38:56.932 [main] StepDef - Window is Maximized Sucessfully
+  Given user Launch Chrome browser                                            # StepDefinition.StepDef.user_launch_chrome_browser()
+
+    Embedding User Fills the Booking Page [image/png 3322 bytes]
+
+[INFO ] 2025-03-20 20:38:57.033 [main] StepDef - LoginPage page object model is executed
+[INFO ] 2025-03-20 20:38:59.470 [main] StepDef - URL opened Sucessfully
+  When User opens URL "https://katalon-demo-cura.herokuapp.com/"              # StepDefinition.StepDef.user_opens_url(java.lang.String)
+
+    Embedding User Fills the Booking Page [image/png 3786 bytes]
+
+[INFO ] 2025-03-20 20:39:00.242 [main] StepDef - Clicked On appointment Button
+  And click on "Make Appointment"                                             # StepDefinition.StepDef.click_on(java.lang.String)
+
+    Embedding User Fills the Booking Page [image/png 4061 bytes]
+
+[INFO ] 2025-03-20 20:39:00.632 [main] StepDef - UserName Entered
+[INFO ] 2025-03-20 20:39:00.800 [main] StepDef - Password Entered
+  And user enters Username as "John Doe" and Password as "ThisIsNotAPassword" # StepDefinition.StepDef.user_enters_username_as_and_password_as(java.lang.String,java.lang.String)
+
+    Embedding User Fills the Booking Page [image/png 4092 bytes]
+
+[INFO ] 2025-03-20 20:39:01.824 [main] StepDef - Clicked On Login Button
+  And click on login                                                          # StepDefinition.StepDef.click_on_login()
+
+    Embedding User Fills the Booking Page [image/png 3801 bytes]
+
+[INFO ] 2025-03-20 20:39:02.161 [main] StepDef - BookingPage page object model is executed
+User is Redirected to Booking Page
+[INFO ] 2025-03-20 20:39:02.163 [main] StepDef - User is redirected to BookingPage
+  Then user is redirected to appointment page                                 # StepDefinition.StepDef.user_is_redirected_to_appointment_page()
+
+    Embedding User Fills the Booking Page [image/png 3801 bytes]
+
+[INFO ] 2025-03-20 20:39:02.560 [main] StepDef - Clicked on Facility
+  When user click on Facility                                                 # StepDefinition.StepDef.user_click_on_facility()
+
+    Embedding User Fills the Booking Page [image/png 13595 bytes]
+
+[INFO ] 2025-03-20 20:39:02.891 [main] StepDef - User Select the type of Facility
+  And select the Type of Facility                                             # StepDefinition.StepDef.select_the_type_of_facility()
+
+    Embedding User Fills the Booking Page [image/png 13595 bytes]
+
+[INFO ] 2025-03-20 20:39:03.249 [main] StepDef - User Selected the Health Care Program
+  And select the type of healthcare program                                   # StepDefinition.StepDef.select_the_type_of_healthcare_program()
+
+    Embedding User Fills the Booking Page [image/png 3801 bytes]
+
+[INFO ] 2025-03-20 20:39:03.633 [main] StepDef - Clicked on Visit Date icon
+  And click on visit date icon                                                # StepDefinition.StepDef.click_on_visit_date_icon()
+
+    Embedding User Fills the Booking Page [image/png 3818 bytes]
+
+[INFO ] 2025-03-20 20:39:03.996 [main] StepDef - User Selected the Visit Date
+  And select the visit date                                                   # StepDefinition.StepDef.select_the_visit_date()
+
+    Embedding User Fills the Booking Page [image/png 3818 bytes]
+
+[INFO ] 2025-03-20 20:39:04.305 [main] StepDef - Clicked on Comment icon
+  And click on comment                                                        # StepDefinition.StepDef.click_on_comment()
+
+    Embedding User Fills the Booking Page [image/png 3818 bytes]
+
+[INFO ] 2025-03-20 20:39:04.697 [main] StepDef - User Entered Comment
+  And enters comment "Cardiac Medical Emergency"                              # StepDefinition.StepDef.enters_comment(java.lang.String)
+
+    Embedding User Fills the Booking Page [image/png 3818 bytes]
+
+[INFO ] 2025-03-20 20:39:05.303 [main] StepDef - User Clicked on BookAppointment Button
+  And click on book appointment                                               # StepDefinition.StepDef.click_on_book_appointment()
+
+    Embedding User Fills the Booking Page [image/png 3491 bytes]
+
+User is redirected to Confirmation Page
+[INFO ] 2025-03-20 20:39:05.640 [main] StepDef - User is redirected to Confirmation Page
+  Then user is redirected to confirmation page                                # StepDefinition.StepDef.user_is_redirected_to_confirmation_page()
+
+    Embedding User Fills the Booking Page [image/png 3491 bytes]
+
+[INFO ] 2025-03-20 20:39:06.010 [main] StepDef - Browser Closed Sucessfully After login page is executed
+  And close browser                                                           # StepDefinition.StepDef.close_browser()
+Error capturing screenshot: invalid session id
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b12428ac59e533bcdac45f4ca348d4b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51726}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51726/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b12428ac59e533bcdac45f4ca348d4b
+TearDown method executed..
+[INFO ] 2025-03-20 20:39:06.173 [main] StepDef - TearDown Executed
+[INFO ] 2025-03-20 20:39:06.173 [main] StepDef - Browser Closed Sucessfully
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 8:39:05 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User Verifies the confirmation page&quot;, &quot;Confirmation Page&quot;](3)" classname="TestRunner.HealthCare_Run" time="12.342">
+    <system-out><![CDATA[
+@regression @functional
+Scenario: User Verifies the confirmation page                                 # Features/03.Confirmation.feature:20
+Setup method executed..
+[DEBUG] Using WebDriverManager 5.9.3
+[DEBUG] Resolution chrome=133 in cache (valid until 21:38:47 20/03/2025 IST)
+[DEBUG] Resolution chrome133=133.0.6943.141 in cache (valid until 01:30:35 21/03/2025 IST)
+[INFO] Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[DEBUG] Driver chromedriver 133.0.6943.141 found in cache
+[INFO] Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+[INFO ] 2025-03-20 20:39:06.939 [main] StepDef - SetUp Executed
+[INFO ] 2025-03-20 20:39:06.939 [main] StepDef - Chrome Browser Launched Sucessfully
+[INFO ] 2025-03-20 20:39:06.940 [main] StepDef - Window is Maximized Sucessfully
+  Given user Launch Chrome browser                                            # StepDefinition.StepDef.user_launch_chrome_browser()
+
+    Embedding User Verifies the confirmation page [image/png 3322 bytes]
+
+[INFO ] 2025-03-20 20:39:07.063 [main] StepDef - LoginPage page object model is executed
+[INFO ] 2025-03-20 20:39:09.598 [main] StepDef - URL opened Sucessfully
+  When User opens URL "https://katalon-demo-cura.herokuapp.com/"              # StepDefinition.StepDef.user_opens_url(java.lang.String)
+
+    Embedding User Verifies the confirmation page [image/png 3786 bytes]
+
+[INFO ] 2025-03-20 20:39:10.540 [main] StepDef - Clicked On appointment Button
+  And click on "Make Appointment"                                             # StepDefinition.StepDef.click_on(java.lang.String)
+
+    Embedding User Verifies the confirmation page [image/png 4061 bytes]
+
+[INFO ] 2025-03-20 20:39:10.956 [main] StepDef - UserName Entered
+[INFO ] 2025-03-20 20:39:11.107 [main] StepDef - Password Entered
+  And user enters Username as "John Doe" and Password as "ThisIsNotAPassword" # StepDefinition.StepDef.user_enters_username_as_and_password_as(java.lang.String,java.lang.String)
+
+    Embedding User Verifies the confirmation page [image/png 4092 bytes]
+
+[INFO ] 2025-03-20 20:39:12.430 [main] StepDef - Clicked On Login Button
+  And click on login                                                          # StepDefinition.StepDef.click_on_login()
+
+    Embedding User Verifies the confirmation page [image/png 3801 bytes]
+
+[INFO ] 2025-03-20 20:39:12.709 [main] StepDef - BookingPage page object model is executed
+User is Redirected to Booking Page
+[INFO ] 2025-03-20 20:39:12.710 [main] StepDef - User is redirected to BookingPage
+  Then user is redirected to appointment page                                 # StepDefinition.StepDef.user_is_redirected_to_appointment_page()
+
+    Embedding User Verifies the confirmation page [image/png 3801 bytes]
+
+[INFO ] 2025-03-20 20:39:13.111 [main] StepDef - Clicked on Facility
+  When user click on Facility                                                 # StepDefinition.StepDef.user_click_on_facility()
+
+    Embedding User Verifies the confirmation page [image/png 13595 bytes]
+
+[INFO ] 2025-03-20 20:39:13.375 [main] StepDef - User Select the type of Facility
+  And select the Type of Facility                                             # StepDefinition.StepDef.select_the_type_of_facility()
+
+    Embedding User Verifies the confirmation page [image/png 13595 bytes]
+
+[INFO ] 2025-03-20 20:39:13.703 [main] StepDef - User Selected the Health Care Program
+  And select the type of healthcare program                                   # StepDefinition.StepDef.select_the_type_of_healthcare_program()
+
+    Embedding User Verifies the confirmation page [image/png 3801 bytes]
+
+[INFO ] 2025-03-20 20:39:14.155 [main] StepDef - Clicked on Visit Date icon
+  And click on visit date icon                                                # StepDefinition.StepDef.click_on_visit_date_icon()
+
+    Embedding User Verifies the confirmation page [image/png 3818 bytes]
+
+[INFO ] 2025-03-20 20:39:14.530 [main] StepDef - User Selected the Visit Date
+  And select the visit date                                                   # StepDefinition.StepDef.select_the_visit_date()
+
+    Embedding User Verifies the confirmation page [image/png 3818 bytes]
+
+[INFO ] 2025-03-20 20:39:14.873 [main] StepDef - Clicked on Comment icon
+  And click on comment                                                        # StepDefinition.StepDef.click_on_comment()
+
+    Embedding User Verifies the confirmation page [image/png 3818 bytes]
+
+[INFO ] 2025-03-20 20:39:15.329 [main] StepDef - User Entered Comment
+  And enters comment "Cardiac Medical Emergency"                              # StepDefinition.StepDef.enters_comment(java.lang.String)
+
+    Embedding User Verifies the confirmation page [image/png 3818 bytes]
+
+[INFO ] 2025-03-20 20:39:15.910 [main] StepDef - User Clicked on BookAppointment Button
+  And click on book appointment                                               # StepDefinition.StepDef.click_on_book_appointment()
+
+    Embedding User Verifies the confirmation page [image/png 3491 bytes]
+
+User is redirected to Confirmation Page
+[INFO ] 2025-03-20 20:39:16.266 [main] StepDef - User is redirected to Confirmation Page
+  Then user is redirected to confirmation page                                # StepDefinition.StepDef.user_is_redirected_to_confirmation_page()
+
+    Embedding User Verifies the confirmation page [image/png 3491 bytes]
+
+User is redirected to Confirmation Page
+[INFO ] 2025-03-20 20:39:16.543 [main] StepDef - User is redirected to Confirmation Page
+  When user is redirected to confirmation page                                # StepDefinition.StepDef.user_is_redirected_to_confirmation_page()
+
+    Embedding User Verifies the confirmation page [image/png 3491 bytes]
+
+[INFO ] 2025-03-20 20:39:16.772 [main] StepDef - ConfirmationPage page object model is executed
+[WARN ] 2025-03-20 20:39:16.854 [main] StepDef - Test Passed: Confirmation feature: Page title matched
+Title Verified
+  And verifies page title as "Appointment Confirmation"                       # StepDefinition.StepDef.verifies_page_title_as(java.lang.String)
+
+    Embedding User Verifies the confirmation page [image/png 3491 bytes]
+
+[WARN ] 2025-03-20 20:39:17.103 [main] StepDef - Test Passed: Confirmation feature: Facility matched
+Facility Verified
+  And verifies facility as "Seoul CURA Healthcare Center"                     # StepDefinition.StepDef.verifies_facility_as(java.lang.String)
+
+    Embedding User Verifies the confirmation page [image/png 3491 bytes]
+
+[WARN ] 2025-03-20 20:39:17.339 [main] StepDef - Test Passed: Confirmation feature: HospitalReAdmission matched
+HospitalReadmission Verified
+  And verifies hospitalreadmission as "No"                                    # StepDefinition.StepDef.verifies_hospitalreadmission_as(java.lang.String)
+
+    Embedding User Verifies the confirmation page [image/png 3491 bytes]
+
+[WARN ] 2025-03-20 20:39:17.595 [main] StepDef - Test Passed: Confirmation feature: HealthCareProgramme matched
+Healthcare Program Verified
+  And verifies healthcareprogram as "Medicaid"                                # StepDefinition.StepDef.verifies_healthcareprogram_as(java.lang.String)
+
+    Embedding User Verifies the confirmation page [image/png 3491 bytes]
+
+[WARN ] 2025-03-20 20:39:17.839 [main] StepDef - Test Passed: Confirmation feature: VisitDate matched
+Visit Date Verified
+  And verifies visitdate as "31/03/2025"                                      # StepDefinition.StepDef.verifies_visitdate_as(java.lang.String)
+
+    Embedding User Verifies the confirmation page [image/png 3491 bytes]
+
+[WARN ] 2025-03-20 20:39:18.090 [main] StepDef - Test Passed: Confirmation feature: Comment matched
+Comment Verified
+  And verifies comment as "Cardiac Medical Emergency"                         # StepDefinition.StepDef.verifies_comment_as(java.lang.String)
+
+    Embedding User Verifies the confirmation page [image/png 3491 bytes]
+
+[INFO ] 2025-03-20 20:39:18.350 [main] StepDef - Browser Closed Sucessfully After login page is executed
+  And close browser                                                           # StepDefinition.StepDef.close_browser()
+Error capturing screenshot: invalid session id
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07886697f20d017de33e72beea6af05b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51768}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51768/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07886697f20d017de33e72beea6af05b
+TearDown method executed..
+[INFO ] 2025-03-20 20:39:18.515 [main] StepDef - TearDown Executed
+[INFO ] 2025-03-20 20:39:18.515 [main] StepDef - Browser Closed Sucessfully
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 8:39:18 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User Logout from The Website after Sucessful Regestration&quot;, &quot;Logout Page&quot;](4)" classname="TestRunner.HealthCare_Run" time="13.722">
+    <system-out><![CDATA[
+@functional @regression
+Scenario: User Logout from The Website after Sucessful Regestration           # Features/04.Logout.feature:28
+Setup method executed..
+[DEBUG] Using WebDriverManager 5.9.3
+[DEBUG] Resolution chrome=133 in cache (valid until 21:38:47 20/03/2025 IST)
+[DEBUG] Resolution chrome133=133.0.6943.141 in cache (valid until 01:30:35 21/03/2025 IST)
+[INFO] Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[DEBUG] Driver chromedriver 133.0.6943.141 found in cache
+[INFO] Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+[INFO ] 2025-03-20 20:39:19.327 [main] StepDef - SetUp Executed
+[INFO ] 2025-03-20 20:39:19.328 [main] StepDef - Chrome Browser Launched Sucessfully
+[INFO ] 2025-03-20 20:39:19.328 [main] StepDef - Window is Maximized Sucessfully
+  Given user Launch Chrome browser                                            # StepDefinition.StepDef.user_launch_chrome_browser()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3322 bytes]
+
+[INFO ] 2025-03-20 20:39:19.461 [main] StepDef - LoginPage page object model is executed
+[INFO ] 2025-03-20 20:39:21.857 [main] StepDef - URL opened Sucessfully
+  When User opens URL "https://katalon-demo-cura.herokuapp.com/"              # StepDefinition.StepDef.user_opens_url(java.lang.String)
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3786 bytes]
+
+[INFO ] 2025-03-20 20:39:22.609 [main] StepDef - Clicked On appointment Button
+  And click on "Make Appointment"                                             # StepDefinition.StepDef.click_on(java.lang.String)
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 4061 bytes]
+
+[INFO ] 2025-03-20 20:39:22.999 [main] StepDef - UserName Entered
+[INFO ] 2025-03-20 20:39:23.142 [main] StepDef - Password Entered
+  And user enters Username as "John Doe" and Password as "ThisIsNotAPassword" # StepDefinition.StepDef.user_enters_username_as_and_password_as(java.lang.String,java.lang.String)
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 4092 bytes]
+
+[INFO ] 2025-03-20 20:39:23.996 [main] StepDef - Clicked On Login Button
+  And click on login                                                          # StepDefinition.StepDef.click_on_login()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3801 bytes]
+
+[INFO ] 2025-03-20 20:39:24.379 [main] StepDef - BookingPage page object model is executed
+User is Redirected to Booking Page
+[INFO ] 2025-03-20 20:39:24.379 [main] StepDef - User is redirected to BookingPage
+  Then user is redirected to appointment page                                 # StepDefinition.StepDef.user_is_redirected_to_appointment_page()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3801 bytes]
+
+[INFO ] 2025-03-20 20:39:24.835 [main] StepDef - Clicked on Facility
+  When user click on Facility                                                 # StepDefinition.StepDef.user_click_on_facility()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 13595 bytes]
+
+[INFO ] 2025-03-20 20:39:25.196 [main] StepDef - User Select the type of Facility
+  And select the Type of Facility                                             # StepDefinition.StepDef.select_the_type_of_facility()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 13595 bytes]
+
+[INFO ] 2025-03-20 20:39:25.520 [main] StepDef - User Selected the Health Care Program
+  And select the type of healthcare program                                   # StepDefinition.StepDef.select_the_type_of_healthcare_program()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3801 bytes]
+
+[INFO ] 2025-03-20 20:39:25.969 [main] StepDef - Clicked on Visit Date icon
+  And click on visit date icon                                                # StepDefinition.StepDef.click_on_visit_date_icon()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3818 bytes]
+
+[INFO ] 2025-03-20 20:39:26.324 [main] StepDef - User Selected the Visit Date
+  And select the visit date                                                   # StepDefinition.StepDef.select_the_visit_date()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3818 bytes]
+
+[INFO ] 2025-03-20 20:39:26.631 [main] StepDef - Clicked on Comment icon
+  And click on comment                                                        # StepDefinition.StepDef.click_on_comment()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3818 bytes]
+
+[INFO ] 2025-03-20 20:39:26.963 [main] StepDef - User Entered Comment
+  And enters comment "Cardiac Medical Emergency"                              # StepDefinition.StepDef.enters_comment(java.lang.String)
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3818 bytes]
+
+[INFO ] 2025-03-20 20:39:27.472 [main] StepDef - User Clicked on BookAppointment Button
+  And click on book appointment                                               # StepDefinition.StepDef.click_on_book_appointment()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3491 bytes]
+
+User is redirected to Confirmation Page
+[INFO ] 2025-03-20 20:39:27.893 [main] StepDef - User is redirected to Confirmation Page
+  Then user is redirected to confirmation page                                # StepDefinition.StepDef.user_is_redirected_to_confirmation_page()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3491 bytes]
+
+User is redirected to Confirmation Page
+[INFO ] 2025-03-20 20:39:28.153 [main] StepDef - User is redirected to Confirmation Page
+  When user is redirected to confirmation page                                # StepDefinition.StepDef.user_is_redirected_to_confirmation_page()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3491 bytes]
+
+[INFO ] 2025-03-20 20:39:28.380 [main] StepDef - ConfirmationPage page object model is executed
+[WARN ] 2025-03-20 20:39:28.427 [main] StepDef - Test Passed: Confirmation feature: Page title matched
+Title Verified
+  And verifies page title as "Appointment Confirmation"                       # StepDefinition.StepDef.verifies_page_title_as(java.lang.String)
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3491 bytes]
+
+[WARN ] 2025-03-20 20:39:28.680 [main] StepDef - Test Passed: Confirmation feature: Facility matched
+Facility Verified
+  And verifies facility as "Seoul CURA Healthcare Center"                     # StepDefinition.StepDef.verifies_facility_as(java.lang.String)
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3491 bytes]
+
+[WARN ] 2025-03-20 20:39:28.973 [main] StepDef - Test Passed: Confirmation feature: HospitalReAdmission matched
+HospitalReadmission Verified
+  And verifies hospitalreadmission as "No"                                    # StepDefinition.StepDef.verifies_hospitalreadmission_as(java.lang.String)
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3491 bytes]
+
+[WARN ] 2025-03-20 20:39:29.251 [main] StepDef - Test Passed: Confirmation feature: HealthCareProgramme matched
+Healthcare Program Verified
+  And verifies healthcareprogram as "Medicaid"                                # StepDefinition.StepDef.verifies_healthcareprogram_as(java.lang.String)
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3491 bytes]
+
+[WARN ] 2025-03-20 20:39:29.524 [main] StepDef - Test Passed: Confirmation feature: VisitDate matched
+Visit Date Verified
+  And verifies visitdate as "31/03/2025"                                      # StepDefinition.StepDef.verifies_visitdate_as(java.lang.String)
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3491 bytes]
+
+[WARN ] 2025-03-20 20:39:29.785 [main] StepDef - Test Passed: Confirmation feature: Comment matched
+Comment Verified
+  And verifies comment as "Cardiac Medical Emergency"                         # StepDefinition.StepDef.verifies_comment_as(java.lang.String)
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3491 bytes]
+
+Confirmation Page is Verified
+[INFO ] 2025-03-20 20:39:29.992 [main] StepDef - ConfirmationPage is Verified
+  Then user confirms the confirmation page                                    # StepDefinition.StepDef.user_confirms_the_confirmation_page()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3491 bytes]
+
+[INFO ] 2025-03-20 20:39:30.225 [main] StepDef - LogoutPage Page Object model is executed
+Confirmation page is Verified and user wants to logout from website
+[INFO ] 2025-03-20 20:39:30.226 [main] StepDef - User wants to Logout from Website
+  When Confirmation page is verified                                          # StepDefinition.StepDef.confirmation_page_is_verified()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3491 bytes]
+
+[INFO ] 2025-03-20 20:39:30.589 [main] StepDef - Clicked on Menu bar
+  And user clicks on menubar                                                  # StepDefinition.StepDef.user_clicks_on_menubar()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3525 bytes]
+
+[INFO ] 2025-03-20 20:39:31.440 [main] StepDef - Clicked on Logout button
+  And clicked on Logout button                                                # StepDefinition.StepDef.clicked_on_logout_button()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3786 bytes]
+
+User Sucessfully Logout from Website
+[INFO ] 2025-03-20 20:39:31.739 [main] StepDef - User SucessfullY logout from the Website
+  Then user sucessfully logout from the website                               # StepDefinition.StepDef.user_sucessfully_logout_from_the_website()
+
+    Embedding User Logout from The Website after Sucessful Regestration [image/png 3786 bytes]
+
+[INFO ] 2025-03-20 20:39:32.043 [main] StepDef - Browser Closed Sucessfully After login page is executed
+  And close browser                                                           # StepDefinition.StepDef.close_browser()
+Error capturing screenshot: invalid session id
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71ebb932c53adadb5680cc295f592580, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51812/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71ebb932c53adadb5680cc295f592580
+TearDown method executed..
+[INFO ] 2025-03-20 20:39:32.240 [main] StepDef - TearDown Executed
+[INFO ] 2025-03-20 20:39:32.241 [main] StepDef - Browser Closed Sucessfully
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 8:39:31 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+
+]]></system-err>
+  </testcase>
+</testsuite>
