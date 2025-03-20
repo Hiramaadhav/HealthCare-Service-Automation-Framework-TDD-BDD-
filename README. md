@@ -1,0 +1,96 @@
+🏥 CURA Health Care Service Automation Framework
+🚀 Overview
+The CURA Health Care Service Automation Framework is a robust test automation framework designed to automate the CURA healthcare service web application. It leverages both Test-Driven Development (TDD) and Behavior-Driven Development (BDD) methodologies to efficiently run and validate test cases. The framework generates detailed test execution reports using Extent Reports and captures logs using Log4j2 for effective debugging and monitoring.
+
+🔥 Key Features
+✅ TDD and BDD Integration:
+Follows the Test-Driven Development approach with JUnit/TestNG.
+Uses Cucumber BDD to write test scenarios in Gherkin syntax for better readability.
+✅ Automation with Selenium WebDriver:
+Automates the CURA healthcare service web application.
+Validates functionalities such as patient login, appointment booking, and history checks.
+✅ Logging with Log4j2:
+Captures detailed logs for each test execution.
+✅ Reporting with Extent Reports:
+Generates visually appealing and detailed HTML reports with test execution results.
+✅ Page Object Model (POM) Design:
+Ensures modular and reusable code by following the Page Object Model pattern.
+✅ Screenshots on Failure:
+Captures screenshots when test cases fail.
+⚙️ Technology Stack
+Language: Java
+Framework: Selenium with TestNG and Cucumber
+Logging: Log4j2
+Reporting: Extent Reports
+Build Tool: Maven
+Version Control: GitHub
+🛠️ Installation and Setup
+1️⃣ Clone the Repository
+sh
+Copy
+Edit
+git clone https://github.com/Hiramaadhav/HealthCare-Service-Automation-Framework-TDD-BDD-.git
+2️⃣ Open the Project in Eclipse or IntelliJ
+Import the project as a Maven project.
+3️⃣ Install Dependencies
+Ensure all dependencies are properly installed by running:
+
+sh
+Copy
+Edit
+mvn clean install
+4️⃣ Run the Tests
+To execute all test cases:
+
+sh
+Copy
+Edit
+mvn test
+For individual features:
+
+sh
+Copy
+Edit
+mvn test -Dcucumber.options="--tags @Login"
+📝 Project Structure
+bash
+Copy
+Edit
+📁 src/main/java  
+ └── 📂 pages                   # Page Object classes  
+ └── 📂 utils                   # Utility classes (Excel, Config, etc.)  
+ └── 📂 logs                    # Log4j2 configuration  
+
+📁 src/test/java  
+ └── 📂 stepDefinitions         # Step definitions for Cucumber  
+ └── 📂 runner                  # Test runner class  
+
+📁 Features                     # Cucumber feature files  
+📁 logs                         # Log files  
+📁 Screenshot                   # Captured screenshots on failure  
+📁 target                       # Compiled files  
+📁 test-output                  # Extent reports  
+📄 pom.xml                      # Maven dependencies  
+📄 testng.xml                   # TestNG configuration  
+🛠️ How to Generate Reports
+After test execution:
+
+Extent Reports:
+Reports are generated in the test-output folder.
+Open index.html in the browser to view the results.
+Log Files:
+Logs are saved in the /logs folder.
+Screenshots:
+Failure screenshots are saved in the /Screenshot folder.
+
+🌟 Screenshots
+✅ Extent Report Example:
+
+✅ Log4j2 Logs:
+
+log
+Copy
+Edit
+INFO: Successfully logged in with valid credentials
+ERROR: Invalid username or password
+🚀 Happy Testing! 🎯
