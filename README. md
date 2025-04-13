@@ -1,96 +1,78 @@
-🏥 CURA Health Care Service Automation Framework
-🚀 Overview
-The CURA Health Care Service Automation Framework is a robust test automation framework designed to automate the CURA healthcare service web application. It leverages both Test-Driven Development (TDD) and Behavior-Driven Development (BDD) methodologies to efficiently run and validate test cases. The framework generates detailed test execution reports using Extent Reports and captures logs using Log4j2 for effective debugging and monitoring.
+Healthcare Service Automation Framework
 
-🔥 Key Features
-✅ TDD and BDD Integration:
-Follows the Test-Driven Development approach with JUnit/TestNG.
-Uses Cucumber BDD to write test scenarios in Gherkin syntax for better readability.
-✅ Automation with Selenium WebDriver:
-Automates the CURA healthcare service web application.
-Validates functionalities such as patient login, appointment booking, and history checks.
-✅ Logging with Log4j2:
-Captures detailed logs for each test execution.
-✅ Reporting with Extent Reports:
-Generates visually appealing and detailed HTML reports with test execution results.
-✅ Page Object Model (POM) Design:
-Ensures modular and reusable code by following the Page Object Model pattern.
-✅ Screenshots on Failure:
-Captures screenshots when test cases fail.
-⚙️ Technology Stack
-Language: Java
-Framework: Selenium with TestNG and Cucumber
-Logging: Log4j2
-Reporting: Extent Reports
-Build Tool: Maven
-Version Control: GitHub
-🛠️ Installation and Setup
-1️⃣ Clone the Repository
-sh
-Copy
-Edit
-git clone https://github.com/Hiramaadhav/HealthCare-Service-Automation-Framework-TDD-BDD-.git
-2️⃣ Open the Project in Eclipse or IntelliJ
-Import the project as a Maven project.
-3️⃣ Install Dependencies
-Ensure all dependencies are properly installed by running:
+This project demonstrates a comprehensive Healthcare Service Automation Framework built using Test-Driven Development (TDD) and Behavior-Driven Development (BDD) methodologies. The framework automates critical workflows in a healthcare service web application, such as login, appointment booking, confirmation, and logout functionalities.
 
-sh
-Copy
-Edit
-mvn clean install
-4️⃣ Run the Tests
-To execute all test cases:
+🚀 Project Overview
+The framework is designed to ensure reliable, scalable, and efficient test automation for a healthcare service web application. By combining Selenium, Java, and Cucumber BDD, the framework provides an easy-to-maintain structure for web automation. Continuous integration is integrated with Jenkins to ensure automated test execution on each code commit or on a scheduled basis.
 
-sh
-Copy
-Edit
-mvn test
-For individual features:
+Key Features:
+Automated Test Scenarios:
 
-sh
-Copy
-Edit
-mvn test -Dcucumber.options="--tags @Login"
-📝 Project Structure
-bash
-Copy
-Edit
-📁 src/main/java  
- └── 📂 pages                   # Page Object classes  
- └── 📂 utils                   # Utility classes (Excel, Config, etc.)  
- └── 📂 logs                    # Log4j2 configuration  
+Login Page: Automated tests to verify secure login with valid/invalid credentials.
 
-📁 src/test/java  
- └── 📂 stepDefinitions         # Step definitions for Cucumber  
- └── 📂 runner                  # Test runner class  
+Booking Page: Automated appointment booking with various scenarios.
 
-📁 Features                     # Cucumber feature files  
-📁 logs                         # Log files  
-📁 Screenshot                   # Captured screenshots on failure  
-📁 target                       # Compiled files  
-📁 test-output                  # Extent reports  
-📄 pom.xml                      # Maven dependencies  
-📄 testng.xml                   # TestNG configuration  
-🛠️ How to Generate Reports
-After test execution:
+Confirmation Page: Validates booking confirmation details.
 
-Extent Reports:
-Reports are generated in the test-output folder.
-Open index.html in the browser to view the results.
-Log Files:
-Logs are saved in the /logs folder.
-Screenshots:
-Failure screenshots are saved in the /Screenshot folder.
+Logout Functionality: Ensures proper session termination after booking.
 
-🌟 Screenshots
-✅ Extent Report Example:
+Page Object Model (POM): Uses POM for modular, reusable code that improves maintainability and scalability.
 
-✅ Log4j2 Logs:
+CI/CD Pipeline Integration: Integrated with Jenkins for continuous testing and automated test execution.
 
-log
-Copy
-Edit
-INFO: Successfully logged in with valid credentials
-ERROR: Invalid username or password
-🚀 Happy Testing! 🎯
+Detailed Reporting: Utilizes Extent Reports to generate HTML reports with logs, screenshots, and execution status for each test step.
+
+🛠 Tech Stack & Tools
+Selenium: For web automation and interaction with the web application.
+
+Java: The programming language used for test automation.
+
+Cucumber BDD: To define clear, business-readable test scenarios using Gherkin syntax.
+
+Extent Reports: For detailed test execution reports, including screenshots of failed test cases for easy debugging.
+
+Log4j2: For structured and comprehensive logging throughout the test execution.
+
+Jenkins: For CI/CD integration, enabling continuous testing with automated test execution.
+
+⚙️ Framework Architecture
+The framework is structured using the Page Object Model (POM) to separate concerns and enhance reusability:
+
+Page Objects: Represent each page (Login, Booking, Confirmation, Logout) as separate classes, encapsulating the logic for page interactions.
+
+Test Components: Each page object contains methods for interacting with page elements, and test cases are written to invoke these methods for verifying functionality.
+
+Reusable Components: Common actions, such as waiting for elements, interacting with forms, etc., are encapsulated in utility classes for reuse across tests.
+
+Key Components:
+LoginPage: Contains methods to enter credentials and submit login forms.
+
+BookingPage: Includes methods for selecting a date, time, and patient information to book an appointment.
+
+ConfirmationPage: Validates the booking confirmation details, ensuring that the appointment is successfully booked.
+
+LogoutPage: Ensures proper session termination by logging out the user.
+
+Base Class: Handles test setup, initialization, and teardown, including configuration of WebDriver and TestNG annotations.
+
+📊 Reporting & Logging
+Reporting:
+Extent Reports: Generates interactive HTML reports that provide detailed insights into test execution, including logs, screenshots (if applicable), and execution results.
+
+Screenshots on Failure: Captures screenshots whenever a test fails, providing valuable debugging information.
+
+Logging:
+Log4j2: Logs detailed information at each step of the test execution process for traceability and debugging. Logs are saved in a dedicated log file for easy access and analysis.
+
+🚀 CI/CD Integration
+The framework is integrated with Jenkins to automate test execution on every code commit or on a scheduled build. Jenkins handles the triggering, running, and reporting of tests, ensuring continuous validation of the application.
+
+📈 Automation Goals Achieved
+Improved Test Coverage: Automated testing of key functionalities ensures high test coverage, catching bugs early.
+
+Faster, Reliable, and Repeatable Test Execution: Automation reduces manual intervention, leading to faster, more reliable test execution.
+
+Continuous Testing: CI/CD pipeline integration with Jenkins ensures continuous validation of the application with every code change.
+
+🤝 Contributing
+Feel free to fork this repository, submit issues, or contribute enhancements! If you have any questions or suggestions, please open an issue or pull request.
